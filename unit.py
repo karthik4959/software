@@ -3,9 +3,9 @@ from word import WordCounter
 # Unit testing for the functions
 class TestWordCounter(unittest.TestCase):
         def test_count_uppercase(self):
-            self.assertEqual(WordCounter.count_uppercase(self, "Hello World"), 2)
-            self.assertEqual(WordCounter.count_uppercase(self, "NoUppercaseHere"), 3)
-            self.assertEqual(WordCounter.count_uppercase(self, "ALLCAPS"), 7)
+            self.assertEqual(WordCounter.cout_uppercase(self, "Hello World"), 2)
+            self.assertEqual(WordCounter.cout_uppercase(self, "NoUppercaseHere"), 3)
+            self.assertEqual(WordCounter.cout_uppercase(self, "ALLCAPS"), 7)
 
         def test_count_lowercase(self):
             self.assertEqual(WordCounter.count_lowercase(self, "Hello World"), 8)

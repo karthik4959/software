@@ -9,7 +9,7 @@ class IntegrationTestWordCounter(unittest.TestCase):
 
         # Test the integration by passing the output of one function as input to the next function
         lowercase_count = WordCounter.count_lowercase(self, text)
-        uppercase_count = WordCounter.count_uppercase(self, text)
+        uppercase_count = WordCounter.cout_uppercase(self, text)
         vowel_count = WordCounter.count_vowels(self, text)
         total_chars_count = WordCounter.count_total_chars(self, text)
         total_words_count = WordCounter.count_total_words(self, text)
